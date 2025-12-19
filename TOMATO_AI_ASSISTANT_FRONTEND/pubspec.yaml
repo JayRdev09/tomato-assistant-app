@@ -1,0 +1,30 @@
+name: tomatoaiassistant
+description: A Tomato Plant Disease Detection App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.1
+  google_sign_in: ^6.1.5
+  provider: ^6.1.1
+  image_picker: ^1.0.4
+  camera: ^0.10.5
+  cached_network_image: ^3.3.0  # <-- Add this line here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
