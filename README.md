@@ -3,8 +3,8 @@
 Full-stack application with Node.js backend and Flutter frontend.
 
 ## 📁 Project Structure
-- `backend-node/` - Express.js REST API backend
-- `tomatoalassistantwithauth/` - Flutter mobile application frontend
+- `TOMATO_AI_ASSISTANT_BACKEND/` - Express.js REST API backend
+- `TOMATO_AI_ASSISTANT_FRONTEND/` - Flutter mobile application frontend
 
 ## 👥 Developers
 - **JOJENE IAN BRYLLE LOCSIN**
@@ -16,7 +16,7 @@ Full-stack application with Node.js backend and Flutter frontend.
 ### Backend Setup (Node.js/Express)
 ```bash
 # Navigate to backend directory
-cd backend-node
+cd TOMATO_AI_ASSISTANT_BACKEND
 
 # Install dependencies
 npm install
@@ -34,7 +34,7 @@ npm run dev
 ### Frontend Setup (Flutter)
 ```bash
 # Navigate to Flutter directory
-cd tomatoalassistantwithauth
+cd TOMATO_AI_ASSISTANT_FRONTEND
 
 # Install dependencies
 flutter pub get
@@ -76,7 +76,7 @@ NODE_ENV=development
 
 ## 🗂️ Project Structure Details
 ```
-backend-node/
+TOMATO_AI_ASSISTANT_BACKEND/
 ├── src/
 │   ├── controllers/  # Request handlers
 │   ├── models/       # Database models
@@ -85,7 +85,7 @@ backend-node/
 │   └── config/       # Configuration files
 └── package.json
 
-tomatoalassistantwithauth/
+TOMATO_AI_ASSISTANT_FRONTEND/
 ├── lib/
 │   ├── screens/      # Flutter UI screens
 │   ├── models/       # Data models
@@ -99,10 +99,3 @@ tomatoalassistantwithauth/
 - **Flutter issues**: Run `flutter doctor` to diagnose problems
 - **Node.js issues**: Ensure all dependencies are installed with `npm install`
 - **Connection issues**: Verify backend is running on correct port and CORS is configured
-
-## 📞 Support
-For technical issues, please contact the development team.
-
----
-
-**Developed with ❤️ by Team Tomato Assistant**
