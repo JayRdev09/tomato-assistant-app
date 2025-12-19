@@ -49,7 +49,7 @@ flutter build apk
 ```
 
 ## 📋 Environment Variables
-Create `.env` file in `backend-node/` with the following structure:
+Create `.env` file in `TOMATO_AI_ASSISTANT_BACKEND/` with the following structure:
 ```
 SUPABASE_URL=Supabase_URL
 SUPABASE_SERVICE_KEY=Supabase_ServiceKey
@@ -62,7 +62,7 @@ NODE_ENV=development
 ### For Backend:
 - Node.js (v16 or higher)
 - npm or yarn
-- MongoDB (local or cloud)
+- SupaBase 
 
 ### For Frontend:
 - Flutter SDK (latest stable version)
