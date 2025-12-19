@@ -51,9 +51,10 @@ flutter build apk
 ## 📋 Environment Variables
 Create `.env` file in `backend-node/` with the following structure:
 ```
-PORT=3000
-DATABASE_URL=your_mongodb_url_here
-JWT_SECRET=your_secret_key_here
+SUPABASE_URL=Supabase_URL
+SUPABASE_SERVICE_KEY=Supabase_ServiceKey
+
+PORT=8000
 NODE_ENV=development
 ```
 
